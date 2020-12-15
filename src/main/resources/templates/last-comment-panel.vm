@@ -1,0 +1,5 @@
+#if ($lastCommit == "")
+    <span style="font-weight: bold; color: red;">Herhangi bir yorum bulunamadı.</span>
+#else
+    <span style="font-weight: bold; color: green;">Issue üzerindeki son yorum; <br/> $!lastCommit</span>
+#end
